@@ -13,7 +13,24 @@ $("document").ready(function(){
     
     $('p:gt(0)').css('border-style', 'solid');
     
+    $('#replaceWText').bind('click', replaceWText);
+    
+    $('#randPara').bind('click', addAPara);
+    
+    $('#removePara').bind('click', removeAPara);
 });
+
+function removeAPara(){
+    $('#randPara p:last').remove();
+}
+
+function addAPara(){
+    $('#randPara').append('<p>Added</p>');
+}
+
+function replaceWText(){
+    $('#replaceWText').text('Changed');
+}
 
 function mouseOverMe(){
     $('h1').html("Bruh");
