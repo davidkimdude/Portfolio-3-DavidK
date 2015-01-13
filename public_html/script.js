@@ -1,11 +1,11 @@
 $("document").ready(function(){
+    $('.background').css('background-image', 'url(https://lh5.googleusercontent.com/-Bkb0UpnNyvQ/AAAAAAAAAAI/AAAAAAAAAQ8/HCV37PLtfxQ/photo.jpg)');
+    
     $('h1').bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
     
     $('h1').bind('click', mouseClick);
     
     $('.siblings').css('background-color', 'orange');
-    
-    $('.background').css('background-color', 'black');
     
     $('p:nth-child(1)').css('background-color', 'pink');
     
