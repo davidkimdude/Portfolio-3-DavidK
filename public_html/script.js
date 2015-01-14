@@ -18,6 +18,17 @@ $("document").ready(function(){
     $('#randPara').bind('click', addAPara);
     
     $('#removePara').bind('click', removeAPara);
+    
+    $('#hideLogo').bind('click', hideTheImage);
+    $('#showLogo').bind('click', showTheImage);
+    $('#toggleText').bind('click', toggleTheText);
+    
+    $('#accordion > p').hide();
+    
+    $('#accordion h4').click(function(){
+         $(this).siblings('p:visible').slideUp('2000');
+         $(this).next().animate({'height':'toggle'}, '2000', 'easeInOutExpo');
+    });
 });
 
 function removeAPara(){
@@ -43,3 +54,16 @@ function mouseOutMe(){
 function mouseClick(){
     $('p').html('Wazzup');
 }
+
+function hideTheImage(){
+    $('#logo').hide('explode', {}, 2500);
+}
+
+function showTheImage(){
+    $('#logo').show('explode', {}, 2500);
+}
+
+function toggleTheText(){
+    $('h4').toggle(2500);
+}
+
