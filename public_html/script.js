@@ -1,5 +1,5 @@
 $("document").ready(function(){
-    $('.background').css('background-image', 'url(https://lh5.googleusercontent.com/-Bkb0UpnNyvQ/AAAAAAAAAAI/AAAAAAAAAQ8/HCV37PLtfxQ/photo.jpg)');
+    $('#background').css('background-color', 'gold');
     
     $('h1').bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
     
