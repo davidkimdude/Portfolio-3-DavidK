@@ -1,0 +1,27 @@
+body {
+    cursor: url('http://www.rw-designer.com/cursor-view/34222.png'), default;
+}
+
+img{
+    width: 140px;
+    height: 140px;
+}
+
+.row{
+    background-color: white;
+    background: rgba(0,0,0,0.7);
+}
+
+.btn-group-lg{
+    padding-left: 280px; 
+}
+
+#project{
+    width: 280px;
+    height: 200px;
+}
+
+#title{
+    color: white;
+}
+

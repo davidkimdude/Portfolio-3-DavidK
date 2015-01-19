@@ -1,11 +1,25 @@
-.container{
-    border-color: white;
+img{
+    width: 140px;
+    height: 140px;
+}
+
+.btn-group-lg{
+    padding-left: 280px; 
 }
 
 .row{
-    border-color: white;
+    background-color: white;
+    background: rgba(0,0,0,0.7);
 }
 
-.col-xs-12{
-    border-color: white;
+p{
+    color: white;
+}
+
+#pp{
+    color: black;
+}
+
+body {
+    cursor: url('http://www.rw-designer.com/cursor-view/34222.png'), default;
 }
