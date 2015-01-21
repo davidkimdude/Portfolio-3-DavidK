@@ -1,5 +1,7 @@
 $('document').ready(function(){
-   $('.background').css('background-image', 'url(http://th09.deviantart.net/fs32/PRE/f/2008/220/c/9/spray_city_background_by_PhenomenallyMe22.jpg)');
+   $('#hideLogo').bind('click', hideTheImage);
+   
+   $('#showLogo').bind('click', showTheImage);
    
    $('#superHumans').accordion({header: 'h3'});
    
@@ -10,3 +12,12 @@ $('document').ready(function(){
    $('#tabs').resizable();
 });
 
+function hideTheImage(){
+    $('#logo').hide('explode', {}, 2500);
+}
+
+function showTheImage(){
+    $('#logo').show('explode', {}, 2500);
+}
+
+ontouchstart="this.classList.toggle('hover')";

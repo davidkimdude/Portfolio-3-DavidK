@@ -12,7 +12,7 @@ img{
 }
 
 .btn-group-lg{
-    padding-left: 200px; 
+    padding-left: 150px; 
 }
 
 #project{
@@ -24,3 +24,6 @@ img{
     color: white;
 }
 
+.background{
+    background-image: url(http://www.ezibox.com/wp-content/uploads/2013/11/Download-City-Background.jpg);
+}
