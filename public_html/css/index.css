@@ -9,3 +9,13 @@ div {
     width:200px;
     overflow:hidden;
 }
+
+#animateList li a {
+    cursor: pointer;
+    transition: padding-left 250ms ease-out;
+    /* trans pattern:  property duration timingMethod delay */
+}
+
+#animateList li a:hover {
+    padding-left: 20px;
+}
