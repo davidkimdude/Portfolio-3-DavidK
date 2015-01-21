@@ -1,29 +1,30 @@
+/*resizing the image*/
 img{
     width: 140px;
     height: 140px;
 }
-
+/*adjust the place of the button groups*/
 .btn-group-lg{
     padding-left: 150px; 
 }
-
+/*This code makes the certain page transparent*/
 .row{
     background-color: white;
     background: rgba(0,0,0,0.7);
 }
-
+/*changing the color of the letters*/
 p{
     color: white;
 }
-
+/*changing the color of the letters*/
 #pp{
     color: black;
 }
-
+/*make the custom cursor as a default cursor*/
 body {
     cursor: url('http://www.rw-designer.com/cursor-view/34222.png'), default;
 }
-
+/*set the background image*/
 .background{
     background-image: url(http://www.ezibox.com/wp-content/uploads/2013/11/Download-City-Background.jpg);
 }
@@ -42,7 +43,7 @@ body {
 	.flip-container:hover .flipper, .flip-container.hover .flipper {
 		transform: rotateY(180deg);
 	}
-
+/*adjust the size oof flip box*/
 .flip-container, .front, .back {
 	width: 200px;
 	height: 275px;

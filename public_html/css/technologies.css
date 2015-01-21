@@ -1,29 +1,30 @@
+/*set the custom cursor as your default cursor*/
 body {
     cursor: url('http://www.rw-designer.com/cursor-view/34222.png'), default;
 }
-
+/*adjust the size of your image*/
 img{
     width: 140px;
     height: 140px;
 }
-
+/*set the background as a transparent*/
 .row{
     background: rgba(0,0,0,0.7);
 }
-
+/*set the place where the buttons should be*/
 .btn-group-lg{
     padding-left: 150px; 
 }
-
+/*adjust the certain kind of images' size*/
 #project{
     width: 280px;
     height: 200px;
 }
-
+/*set the certain kind of letters' color*/
 #title{
     color: white;
 }
-
+/*set the background iimage*/
 .background{
     background-image: url(http://www.ezibox.com/wp-content/uploads/2013/11/Download-City-Background.jpg);
 }

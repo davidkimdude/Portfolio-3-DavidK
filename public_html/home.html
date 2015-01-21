@@ -10,11 +10,16 @@
         <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
     </head>
+    <!--This background class makes the body able to be called as .background in js or css-->
     <body class="background">
+        <!--Start of the Grid System, the order is container, row, and col-00-00.
+        Grid system lets us divide the page into many sections, which makes it really easy to design.-->
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
+                    <!--img-circle makes the image circular-->
                     <img src="images/logo.jpg" alt="logo" class="img-circle">
+                    <!--These button groups are for the links to the other pages-->
                     <div class="btn-group btn-group-lg" role="group" aria-label="...">
                         <button type="button" class="btn btn-default"><a href="home.html">Home</a></button>
                         <button type="button" class="btn btn-default"><a href="project.html">Projects</a></button>
@@ -31,6 +36,7 @@
             <div class="row">
                 <div class="col-xs-12">
                     <br />
+                    <!--I put youtube videos in the front so you can find it easily.-->
                     <iframe width="250" height="56" src="//www.youtube.com/embed/_k6a9W20lY4" frameborder="0" allowfullscreen></iframe>
                     <br />
                     <br />
@@ -38,8 +44,10 @@
                         <br /><br />I'm participating in the my school's program called App Academy, and I learn how to
                         make website and games using HTML5, CSS, Javascript and etc.<br /><br />
                         Thank you for visiting my website and I hope you have a good time looking through my website.<p>
+                    <!--These tabs are resizable and draggable, which means you can adjust its size and put it anywhere you want.-->
                     <div id="tabs">
                         <ul>
+                            <!--These codes are the titles for your tabs.-->
                             <li><a href="#fragment-1"><span>What You Wanna Do</span></a></li>
                             <li><a href="#fragment-2"><span>Things in This Website</span></a></li>
                             <li><a href="#fragment-3"><span>Fun thing</span></a></li>
@@ -52,8 +60,11 @@
                             <p id="pp">There are not many things in this website, but there's some few cool things which are accordion, resizable and draggable box and etc.</p>
                         </div>
                         <div id='fragment-3'>
+                            <!--You can play with your image if you are using jquery-->
                             <img src="images/yee.png" id="logo">
+                            <!--This code makes the image disappear.-->
                             <button type="button" id="hideLogo">Hide the Logo</button>
+                            <!--This code makes the image show up.-->
                             <button type="button" id="showLogo">Show the Logo</button>
                             <p id='pp'>Fun!</p>
                         </div>
@@ -62,9 +73,11 @@
             </div>
             <br />
             <br />
+            <!--These lines of codes are for accordions. It's similar to tabs, but it stays in its place.-->
             <div id="superHumans" class="row">
                 <p>I talked about myself in this accordion.</p>
                 <br />
+                <!--h3 codes are the tiitles, and p is the paragraphs inside the box.-->
                 <h3>About Me</h3>
                 <p>My name is David Kim as I said, and I'm a Freshman at Pasadena High School.<br />
                     I'm just a random guy who's spending everyday normally.</p>
@@ -76,12 +89,16 @@
             <br />
             <div class='row'>
                 <div class='col-xs-12'>
+                    <!--These codes are for the flipping box, which makes the box flip.-->
                     <div class="flip-container">
                         <p>Here's a little flip animation.</p>
+                        <!--If you hover over them they will flip and showing the image of the opposite box.-->
                         <div class="flipper">
+                            <!--This picture is for the front page of the box.-->
                             <div class="front">
                                 <img src='images/yee.png'>
                             </div>
+                            <!--This image is for the back page of your box.-->
                             <div class="back">
                                 <img src='images/logo.jpg'>
                             </div>
