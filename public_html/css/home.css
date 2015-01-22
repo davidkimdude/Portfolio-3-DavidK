@@ -5,7 +5,7 @@ img{
 }
 /*adjust the place of the button groups*/
 .btn-group-lg{
-    padding-left: 150px; 
+    padding-left: 110px; 
 }
 /*This code makes the certain page transparent*/
 .row{
@@ -24,11 +24,7 @@ p{
 body {
     cursor: url('http://www.rw-designer.com/cursor-view/34222.png'), default;
 }
-/*set the background image*/
-.background{
-    background-image: url(http://www.ezibox.com/wp-content/uploads/2013/11/Download-City-Background.jpg);
-}
-
+/*Make the id title's color white and make the padding*/
 #title{
     color: white;
     padding-left: 500px;
@@ -77,21 +73,14 @@ body {
 .back {
 	transform: rotateY(180deg);
 }
-
-#animateList li a {
-    cursor: pointer;
-    transition: padding-left 250ms ease-out;
-    /* trans pattern:  property duration timingMethod delay */
-}
-
-#animateList li a:hover {
-    padding-left: 20px;
-}
-
+/*Controls the size and place of video*/
 video#bgvid {
+/*set the position to the before every elements*/    
 position: fixed; right: 0; bottom: 0;
+/*Set the minimum height and width to 100% so it covers the whole page*/
 min-width: 100%; min-height: 100%;
 width: auto; height: auto; z-index: -100;
 background: url() no-repeat;
+/*Covers the whole page*/
 background-size: cover;
 }

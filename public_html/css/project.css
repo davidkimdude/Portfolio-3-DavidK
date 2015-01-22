@@ -14,7 +14,7 @@ img{
 }
 /*adjust the place of button groups*/
 .btn-group-lg{
-    padding-left: 150px; 
+    padding-left: 110px; 
 }
 /*adjust the size of certain image*/
 #project{
@@ -25,8 +25,15 @@ img{
 #title{
     color: white;
 }
-/*set the background image*/
-body{
-    background-image: url(http://www.ezibox.com/wp-content/uploads/2013/11/Download-City-Background.jpg);
-}
 
+/*Controls the size and place of video*/
+video#bgvid {
+/*set the position to the before every elements*/    
+position: fixed; right: 0; bottom: 0;
+/*Set the minimum height and width to 100% so it covers the whole page*/
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background: url() no-repeat;
+/*Covers the whole page*/
+background-size: cover;
+}

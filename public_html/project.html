@@ -1,3 +1,4 @@
+<!--This is my project page.-->
 <html>
     <head>
         <title>Made in 1999</title>
@@ -12,6 +13,11 @@
     </head>
     <!--This background class makes the body able to be called as .background in js or css-->
     <body class="background">
+        <!--Putting video as a background-->
+        <!--Put controls muted and the video will play silently-->
+        <video controls muted autoplay loop poster="yee.png" id="bgvid">
+            <source src="images/City of Lights HD Version.mp4" type="video/mp4">
+        </video>
         <!--Start of the Grid System, the order is container, row, and col-00-00.
         Grid system lets us divide the page into many sections, which makes it really easy to design.-->
         <div class="container">
@@ -19,6 +25,7 @@
                 <div class="col-xs-12">
                     <!--img-circle makes the image circular-->
                     <img src="images/logo.jpg" alt="logo" class="img-circle">
+                    <button id="vidpause">Pause</button>
                     <!--These button groups are for the links to the other pages-->
                     <div class="btn-group btn-group-lg" role="group" aria-label="...">
                         <button type="button" class="btn btn-default"><a href="home.html">Home</a></button>
